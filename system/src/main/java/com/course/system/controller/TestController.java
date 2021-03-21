@@ -9,7 +9,6 @@ public class TestController {
 
 
     @RequestMapping("/test")
-    public  String test(){
-        return  "success";
+    public  String test() { return  "success";
     }
 }
